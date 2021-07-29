@@ -1,0 +1,26 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "a restaurant website",
+  "main": "package.json ",
+  "scripts": {
+    "test": "helloworld"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jediknight813/Restaurant-Website.git"
+  },
+  "keywords": [
+    "website"
+  ],
+  "author": "Connor M",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/jediknight813/Restaurant-Website/issues"
+  },
+  "homepage": "https://github.com/jediknight813/Restaurant-Website#readme",
+  "devDependencies": {
+    "webpack": "^5.47.1",
+    "webpack-cli": "^4.7.2"
+  }
+}
