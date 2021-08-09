@@ -8,6 +8,14 @@
 }
 
 
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+}
+
+
 #header {
     background-color: black;
     color: white;
@@ -28,10 +36,11 @@
 }
 
 .button {
+    font-family: 'Brush Script MT', cursive;
     grid-template: 4;
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
-    height: 80px;
+    height: 75px;
     width: 180px;
     background-color: none;
     font-size: 50px;
@@ -39,9 +48,9 @@
 }
 
 .button:hover {
-    height: 85px;
+    height: 75px;
     width: 185;
-    font-size: 52px;
+    font-size: 45px;
 }
 
 .background {
@@ -64,13 +73,94 @@
 
 
 .footer {
+    font-family: 'Brush Script MT', cursive;
     background-color: rgba(0, 0, 0, 0.8);
-    position: fixed;
-    left: 0;
+    position: absolute;
     bottom: 0;
     width: 100%;
-    height: 40px;
+    height: 2.5rem;
     color: white;
     text-align: center;
     font-size: 30px;
 }
+
+.menu_image {
+    width: 10%;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.menu_font {
+    font-family: 'Brush Script MT', cursive;
+    text-align: center;
+    font-size: 80px;
+}
+
+.small_menu_font {
+    font-family: 'Brush Script MT', cursive;
+    text-align: center;
+    font-size: 50px;
+}
+
+.ice_cream_menu_background {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    position: fixed;
+    top: 35%;
+    left: 19%;
+    width: 63%;
+    height: 490px;
+    padding: 0;
+    margin: 0;
+    border-radius: 25px;
+}
+
+
+.grid_template {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(4, 1fr);
+    grid-gap: 1rem;
+    gap: 10px;
+}
+
+.template_item {
+    width: 250px;
+    height: 250px;
+}
+
+.menu_background {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    position: fixed;
+    top: 35%;
+    left: 27%;
+    width: 45%;
+    height: 500px;
+    padding: 0;
+    margin: 0;
+    border-radius: 25px;
+}
+
+.menu_image {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+
+.ice_cream_image_border {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.ice_cream_menu_font {
+    font-family: 'Brush Script MT', cursive;
+    text-align: center;
+    font-size: 35px;
+
+}
+
+
