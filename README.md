@@ -1,4 +1,4 @@
-A ice cream restaurant website made for the oden project.
+A ice cream restaurant website made for the odin project.
 
 website link: https://jediknight813.github.io/Restaurant-Website/
 
